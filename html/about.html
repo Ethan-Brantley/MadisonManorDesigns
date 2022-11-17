@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script>
+        window.Papercups = {
+          config: {
+            token: "88d17722-804b-4f07-87d0-c163c38a4c70",
+            inbox: "6e8915fb-7d54-4367-bd95-199c7726b5ea",
+            title: "Welcome!",
+            subtitle: "How can we help you?",
+            primaryColor: "#fcb900",
+            newMessagePlaceholder: "Start typing...",
+            showAgentAvailability: true,
+            agentAvailableText: "We're online right now!",
+            agentUnavailableText: "We're away at the moment.",
+            requireEmailUpfront: false,
+            iconVariant: "outlined",
+            baseUrl: "https://app.papercups.io"
+            // Optionally include data about your customer here to identify them
+            // customer: {
+            //   name: __CUSTOMER__.name,
+            //   email: __CUSTOMER__.email,
+            //   external_id: __CUSTOMER__.id,
+            //   metadata: {
+            //     plan: "premium"
+            //   }
+            // }
+          },
+        };
+        </script>
+        <script
+          type="text/javascript"
+          async
+          defer
+          src="https://app.papercups.io/widget.js"
+        ></script>
+</head> 
+<body>
+    <div class="wrapper">
+    
+        <header id="header">
+            <nav class="nav-bar">
+                <ul class="nav-links">
+                    <img src="https://via.placeholder.com/100" id="brand">
+                    <span onclick="openNav()" class="openBtn"><i class="fa fa-bars"></i></span>
+    
+                    <div class="overlay-content" id="nav">
+                        <span href="javascript:void(0)" class="closeBtn" onclick="closeNav()">×</span>
+                        <a href="../index.html">Home</a>
+                        <a href="services.html">Services</a>
+                        <a href="about.html">About</a>
+                        <a href="booking.html">Book Appointment</a>
+                    </div>
+                    <div class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="booking.html">Book Appointment</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+    <content>
+
+    </content>
+
+    </div>
+    <footer>
+        <p>
+            &copy; 2022 Madison Manor Designs
+        </p>
+        <p>
+            Website Designed by <a href="#">Atlas Web Development</a>
+        </p>
+    </footer>
+
+    <script src="../js/mobile_navigation.js"></script>
+</body>
+</html>

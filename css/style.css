@@ -1,0 +1,335 @@
+/*
+ *
+ * General Info
+ *
+ * The following set of styling rules is hand-written mobile-first.
+ * It is organized and categorized by the section of the website it defines.
+ * To find rules related to other device sizes, search under the main-level sections
+ * entitled "Desktop Styling Rules" and "Tablet Styling Rules"
+ *
+ * - Atlas Web Development
+ *
+ */
+
+/*
+ *
+ * Global Styling Rules
+ *
+ * Styling rules related to the site's global layout and similar overarching elements
+ *
+ */
+
+html {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.wrapper {
+    
+    min-height: 95%;
+
+}
+
+.fa {
+
+    text-decoration: none;
+    padding: 10px;
+    font-size: 19px;
+    margin: 10px 10px 20px 10px;
+
+}
+
+/*
+ *
+ * Header
+ *
+ * Styling rules related the site's header can be found here.
+ *
+ */
+
+ #brand {
+
+    top: 0;
+    left: 0;
+    margin-top: 25px;
+    margin-left: 25px;
+    position: absolute;
+
+ }
+
+/*
+ *
+ * Navigation
+ *
+ * Styling rules related the site's navigation can be found here.
+ *
+ */
+
+a {
+
+    text-decoration: none;
+
+}
+
+li {
+
+    list-style: none;
+
+}
+
+.nav-bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    width: 100vw;
+    height: 150px;
+    padding: 20px;
+
+}
+
+.nav-links {
+
+    width: 100%;
+    padding: 0px;
+
+}
+
+.nav-links a {
+
+    color: #FFF;
+
+}
+
+.menu {
+
+    max-height: 0px;
+    width: 50%;
+    transition: max-height 0.3s ease-out;
+    overflow: hidden;
+    gap: 1em;
+    font-size: 18px;
+    text-align: center;
+    position: fixed;
+    left: 25%;
+    top: 0%;
+
+}
+
+
+input[type=checkbox]{
+
+    display:none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+input[type=checkbox]:checked ~ .menu{
+
+    max-height: 300px;
+    
+
+}
+
+.hamburger {
+
+    font-size: 28px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding: 25px;
+
+}
+
+.overlay-content {
+
+    background: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    position: fixed;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    transition:0.3s;
+    text-align: center;
+    z-index: 2;
+    padding-top: 150px;
+
+}
+
+.overlay-content a {
+
+    display: block;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+
+}
+
+.overlay-content a:hover {
+
+    background-color: rgb(43, 43, 43);
+
+}
+
+.openBtn {
+
+position: fixed;
+color: black;
+top: 0%;
+right: 0%;
+
+}
+
+.closeBtn {
+
+    font-size: 40px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 0px 15px;
+
+}
+
+/*
+ *
+ * Content
+ *
+ * Styling rules related the site's content can be found here.
+ *
+ */
+
+content {
+
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+
+
+}
+
+h1 {
+
+}
+
+p {
+
+}
+
+/*
+ *
+ * Footer
+ *
+ * Styling rules related the site's footer can be found here.
+ *
+ */
+
+footer {
+
+    border: black solid 1px;
+
+    min-height: 5%;
+    position: relative;
+    bottom: 0px;
+    padding: 20px;
+
+}
+
+footer p {
+
+    text-align: center;
+    
+
+}
+
+/*
+ *
+ * Desktop Styling Rules
+ *
+ * lorem ipsum
+ *
+ */
+
+@media only screen and (min-width: 768px){
+
+/*
+ *
+ * Desktop Navigation Styles
+ *  
+ */
+
+ .nav-bar {
+
+    width: 100%;
+
+}
+
+.overlay-content{
+
+    display: none;
+
+}
+
+.openBtn {
+
+    display: none;
+
+}
+
+.menu {
+
+    max-height: 600px;
+    width: 50%;
+    display: flex;
+    position: relative;
+    transform: translate(85%);
+    justify-content: right;
+    align-items: center;
+    right: 0;
+
+}
+
+.menu a {
+
+    color: black;
+
+}
+
+.menu li:hover {
+
+    background-color: rgb(216, 216, 216);
+    transition: 0.3s ease;
+
+}
+
+.menu li a {
+
+    padding: 5px 14px;
+    display: block;
+    border-bottom: white 1px solid;
+
+}
+
+}
+
+/*
+ *
+ * Tablet Styling Rules
+ *
+ * lorem ipsum
+ *
+ */
