@@ -296,7 +296,7 @@ footer p {
     width: 50%;
     display: flex;
     position: relative;
-    transform: translate(85%);
+    transform: translate(50%);
     justify-content: right;
     align-items: center;
     right: 0;
