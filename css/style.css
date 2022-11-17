@@ -23,6 +23,9 @@ html {
 
     width: 100%;
     height: 100%;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: #5c5c5c;
+    background-color: #EFEFEF;
 
 }
 
@@ -240,19 +243,25 @@ p {
 
 footer {
 
-    border: black solid 1px;
-
+    background-color: #dfdfdf;
     min-height: 5%;
-    position: relative;
+    width: 100%;
     bottom: 0px;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 
 }
 
-footer p {
+#footer-text {
 
     text-align: center;
-    
+
+}
+
+.fa-instagram {
+
+    color: black;
 
 }
 
@@ -305,7 +314,7 @@ footer p {
 
 .menu a {
 
-    color: black;
+    color: #5c5c5c;
 
 }
 
@@ -320,9 +329,21 @@ footer p {
 
     padding: 5px 14px;
     display: block;
-    border-bottom: white 1px solid;
 
 }
+
+}
+
+#booking {
+
+    background-color:rgb(201, 201, 201);
+    border-radius: 5px;
+
+}
+
+.fa {
+
+    font-size: 25px;
 
 }
 
