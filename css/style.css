@@ -281,11 +281,9 @@ footer {
  *
  * Desktop Styling Rules
  *
- * lorem ipsum
- *
  */
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px){
 
 /*
  *
@@ -366,3 +364,73 @@ footer {
  * lorem ipsum
  *
  */
+
+/*
+ @media only screen and (min-width: 500px){ 
+
+    .nav-bar {
+
+        width: 100%;
+    
+    }
+    
+    .overlay-content{
+    
+        display: none;
+    
+    }
+    
+    .openBtn {
+    
+        display: none;
+    
+    }
+    
+    .menu {
+    
+        max-height: 600px;
+        min-width: 60%;
+        display: flex;
+        position: relative;
+        transform: translate(22%);
+        justify-content: right;
+        align-items: center;
+        right: 0;
+    
+    }
+    
+    .menu a {
+    
+        color: #5c5c5c;
+    
+    }
+    
+    .menu li:hover {
+    
+        background-color: rgb(216, 216, 216);
+        transition: 0.3s ease;
+    
+    }
+    
+    .menu li a {
+    
+        padding: 5px 14px;
+        display: block;
+    
+    }
+
+    
+    #booking {
+    
+        background-color:rgb(201, 201, 201);
+        border-radius: 5px;
+    
+    }
+    
+    .fa {
+    
+        font-size: 25px;
+    
+    }
+
+ }*/
