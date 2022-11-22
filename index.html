@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madison Manor Designs | Northern Colorado Home Staging</title>
 
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <script>
         window.Papercups = {
@@ -78,10 +83,22 @@
                 </div>
             </ul>
         </nav>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="images/home_staging_hero_image_01.jpg"></div>
+                <div class="swiper-slide"><img src="images/home_staging_hero_image_02.jpg"></div>
+                <div class="swiper-slide"><img src="images/home_staging_hero_image_03.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="hero-txt">Lorem Ipsum</div>
+        <a href="#"><div class="hero-btn">Action Button</div></a>
     </header>
 
     <content>
-       
+
     </content>
 
     </div>
@@ -101,7 +118,25 @@
             </p>
         </div>
     </footer>
-
-    <script src="js/mobile_navigation.js"></script>
 </body>
+
+<script type="text/javascript" src="js/mobile_navigation.js"></script>
+
+<script>
+
+var swiper = new Swiper(".swiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    
+</script>
+
 </html>
