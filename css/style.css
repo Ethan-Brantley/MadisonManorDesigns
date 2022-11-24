@@ -83,7 +83,7 @@ a {
 
 }
 
-li {
+.nav-bar li {
 
     list-style: none;
 
@@ -236,16 +236,24 @@ h2 {
 
 }
 
-.card-lg p {
+content p {
 
     padding: 5px;
     text-indent: 2em;
 
 }
 
+.pfp {
+
+    border-radius: 50%;
+    margin: auto;
+
+}
+
 .card-sm {
 
-
+    padding: 70px 40px;
+    width: 100%;
 
 }
 
@@ -274,7 +282,6 @@ h2 {
 .testimonial-body {
 
     font-style: italic;
-    font-style: italic;
 
 }
 
@@ -293,16 +300,83 @@ h2 {
 
 }
 
-.gallery {
+.table {
 
-    display: table;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 4px;
 
 }
 
-.gallery-item {
+.table-col {
 
-    padding: 10px;
+    flex: 100%;
+    max-width: 100%;
+    padding: 35px;
+
+}
+
+.table-col img {
+
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+
+}
+
+.card-sm p {
+
+    padding: 5px;
+    text-indent: 2em;
+
+}
+
+p.statement {
+
+    text-indent: 0em;
+    font-size: 1.5em;
+    padding: 0%;
+
+}
+
+.float-l {
+
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 15px;
+
+}
+
+.float-r {
+
+    float: right;
+    margin-left: 50px;
+    margin-bottom: 15px;
+
+}
+
+.fa-calendar {
+
+    font-size: 100px;
+
+}
+
+.hero {
+
+
+    width: 100%;
+
+}
+
+.hero p {
+
+    padding: 5px 50px;
+
+}
+
+.centered {
+
+    text-align: center;
 
 }
 
@@ -489,6 +563,48 @@ footer {
 .fa {
 
     font-size: 25px;
+
+}
+
+.table-col {
+
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 0 4px;
+
+}
+
+.table-col img {
+
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+
+}
+
+.table-col p {
+
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    text-indent: 0%;
+
+}
+
+.card-sm {
+
+    width: 40%;
+    float: right;
+    border-bottom: none;
+
+}
+
+.hero {
+
+    height: 25%;
+    width: 100%;
+    display: block;
 
 }
 
